@@ -13,6 +13,6 @@ export default defineNuxtConfig({
         usePrimeVue: true,        
         importTheme: { from: "@/themes/site-theme.js" },
     },
-    css: ["primeicons/primeicons.css"],
+    css: ["@/assets/css/tailwind.css", "primeicons/primeicons.css"],
     compatibilityDate: "2024-10-21",
 });
