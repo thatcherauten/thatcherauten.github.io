@@ -1,4 +1,7 @@
 export default defineNuxtConfig({
+    app: {
+        baseURL: '/',
+    },
     modules: ["@nuxtjs/tailwindcss", "@primevue/nuxt-module"],
 
     primevue: {
