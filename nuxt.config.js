@@ -2,6 +2,13 @@ export default defineNuxtConfig({
     app: {
         baseURL: '/',
     },
+    routeRules: {
+        '/**': {
+            headers: {
+                'Content-Security-Policy': "frame-src 'self' https://www.youtube.com"
+            }
+        }
+    },
     modules: ["@nuxtjs/tailwindcss", "@primevue/nuxt-module"],
 
     primevue: {
