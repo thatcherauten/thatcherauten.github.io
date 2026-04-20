@@ -36,6 +36,11 @@ vue<template>
         allowfullscreen
         class="rounded max-w-full"
       ></iframe>
+      <p class="mt-2 text-sm text-gray-600">A video of my High School Robotics team's robot. 
+        This video is of one of my autonomous routines at the 2025 VEX Robotics Kansas State Championships;
+        everything you see in this video is happening without any input from the drivers.
+        My robot is the one closest to the camera. I was the builder, programmer, and driver for my team.
+      </p>
     </PrimePanel>
 
     <PrimePanel header="Navigate" class="my-6">
