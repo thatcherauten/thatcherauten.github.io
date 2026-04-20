@@ -17,8 +17,8 @@
 
     <PrimePanel header="A Photo" class="my-6">
       <img
-        src="seniorpic.jpg"
-        alt="A sample image from Wikipedia"
+        src="/seniorpic.jpg"
+        alt="Senior Photo"
         class="rounded shadow"
       />
     </PrimePanel>
