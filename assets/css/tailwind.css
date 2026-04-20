@@ -27,6 +27,6 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.dark body {
+.p-dark body {
     background-color: #0f172a;
 }
