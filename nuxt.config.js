@@ -5,14 +5,13 @@ export default defineNuxtConfig({
     routeRules: {
         '/**': {
             headers: {
-                'Content-Security-Policy': "frame-src 'self' https://www.youtube.com"
+                'Content-Security-Policy': "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com"
             }
         }
     },
     modules: ["@nuxtjs/tailwindcss", "@primevue/nuxt-module"],
 
     primevue: {
-        /* Configuration */
         components: {
             prefix: "Prime",
         },
@@ -20,7 +19,7 @@ export default defineNuxtConfig({
             ripple: true,
             inputVariant: "filled",
         },
-        usePrimeVue: true,        
+        usePrimeVue: true,
         importTheme: { from: "@/themes/site-theme.js" },
     },
     css: ["@/assets/css/tailwind.css", "primeicons/primeicons.css"],

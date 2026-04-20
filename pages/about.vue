@@ -1,38 +1,40 @@
-<template>
+Here's the updated about.vue with your embed code dropped in:
+vue<template>
   <div class="max-w-3xl mx-auto py-8 px-4">
     <h1 class="text-4xl font-bold mb-6">About Me</h1>
 
-    <PrimePanel header="Favorite Movies" class="my-6">
+    <PrimePanel header="Favorite Movies & TV Shows" class="my-6">
       <ul class="list-disc pl-6">
-        <li>Baby Driver</li>
-        <li>Good Will Hunting</li>
-        <li>La La Land</li>
-        <li>Rango</li>
+        <li>Breaking Bad</li>
+        <li>The Dark Knight</li>
+        <li>Interstellar</li>
+        <li>The Office</li>
       </ul>
     </PrimePanel>
 
     <PrimePanel header="My Favorite Site" class="my-6">
-      <a href="https://thatcherauten.github.io" class="text-blue-500 underline">GitHub</a>
+      <a href="https://github.com" class="text-blue-500 underline">GitHub</a>
     </PrimePanel>
 
     <PrimePanel header="A Photo" class="my-6">
       <img
         src="/seniorpic.jpg"
-        alt="Senior Photo"
+        alt="Senior photo"
         class="rounded shadow"
       />
     </PrimePanel>
 
     <PrimePanel header="Featured Video" class="my-6">
       <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/watch?v=VnFxuW61GiY"
-        title="YouTube video"
+        width="903"
+        height="508"
+        src="https://www.youtube-nocookie.com/embed/VnFxuW61GiY"
+        title="Negative Side AWP"
         frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
-        class="rounded"
+        class="rounded max-w-full"
       ></iframe>
     </PrimePanel>
 
