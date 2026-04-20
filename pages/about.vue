@@ -2,22 +2,22 @@
   <div class="max-w-3xl mx-auto py-8 px-4">
     <h1 class="text-4xl font-bold mb-6">About Me</h1>
 
-    <PrimePanel header="Favorite Movies & TV Shows" class="my-6">
+    <PrimePanel header="Favorite Movies" class="my-6">
       <ul class="list-disc pl-6">
-        <li>Breaking Bad</li>
-        <li>The Dark Knight</li>
-        <li>Interstellar</li>
-        <li>The Office</li>
+        <li>Baby Driver</li>
+        <li>Good Will Hunting</li>
+        <li>La La Land</li>
+        <li>Rango</li>
       </ul>
     </PrimePanel>
 
     <PrimePanel header="My Favorite Site" class="my-6">
-      <a href="https://github.com" class="text-blue-500 underline">GitHub</a>
+      <a href="https://thatcherauten.github.io" class="text-blue-500 underline">GitHub</a>
     </PrimePanel>
 
     <PrimePanel header="A Photo" class="my-6">
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/280px-PNG_transparency_demonstration_1.png"
+        src="seniorpic.jpg"
         alt="A sample image from Wikipedia"
         class="rounded shadow"
       />
@@ -27,7 +27,7 @@
       <iframe
         width="560"
         height="315"
-        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        src="https://www.youtube.com/watch?v=VnFxuW61GiY"
         title="YouTube video"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

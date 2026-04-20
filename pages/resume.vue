@@ -4,10 +4,10 @@
 
     <PrimePanel header="Contact" class="my-6">
       <div>
-        <p>Email: you@example.com</p>
-        <p>Phone: (555) 555-5555</p>
+        <p>Email:thatcherauten@ksu.edu</p>
+        <p>Phone: (316) 260-0414</p>
         <p>Location: Manhattan, KS</p>
-        <p>LinkedIn: <a href="https://linkedin.com" class="text-blue-500 underline">linkedin.com/in/yourname</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/thatcher-auten-0aa72a372/" class="text-blue-500 underline"></a></p>
       </div>
     </PrimePanel>
 
@@ -15,19 +15,20 @@
       <div>
         <h3 class="text-xl font-semibold">Kansas State University</h3>
         <p>Bachelor of Science in Computer Science</p>
-        <p>Expected Graduation: May 2026</p>
+        <p>Bachelor of Science in Cybersecurity</p>
+        <p>Expected Graduation: May 2029</p>
       </div>
     </PrimePanel>
 
     <PrimePanel header="Work Experience" class="my-6">
       <div class="mb-4">
-        <h3 class="text-xl font-semibold">Job Title — Company Name</h3>
-        <p class="text-gray-500">Jan 2024 – Present</p>
+        <h3 class="text-xl font-semibold">Kitchen Leader In-Training — Chipotle Mexican Grill</h3>
+        <p class="text-gray-500">Apr 2023 – Present</p>
         <p>Brief description of your responsibilities and accomplishments in this role.</p>
       </div>
       <div>
-        <h3 class="text-xl font-semibold">Job Title — Company Name</h3>
-        <p class="text-gray-500">May 2023 – Dec 2023</p>
+        <h3 class="text-xl font-semibold">End User Services Intern — Textron Aviation</h3>
+        <p class="text-gray-500">May 2025 – Jul 2025</p>
         <p>Brief description of your responsibilities and accomplishments in this role.</p>
       </div>
     </PrimePanel>
